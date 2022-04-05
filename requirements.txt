@@ -1,3 +1,0 @@
-mols2grid==0.2.1
-numpy==1.21.2
-py3Dmol==1.8.0
