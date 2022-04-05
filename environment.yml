@@ -1,10 +1,13 @@
 name: fbdd_demo
 channels:
-  - defaults
+  - conda-forge
 dependencies:
   - rdkit
   - jupyterlab
-  - matplotlib
-  - pymol
-  - nodejs
+  - numpy
+  - pip
+  - pip:
+    - py3Dmol
+    - mols2grid
+
 prefix: /home/swills/app/miniconda3/envs/fbdd_demo
